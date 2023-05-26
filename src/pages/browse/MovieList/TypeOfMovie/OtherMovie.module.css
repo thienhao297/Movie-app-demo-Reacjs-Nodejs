@@ -1,0 +1,23 @@
+.box_original {
+  display: flex;
+  width: fit-content;
+  overflow-x: auto;
+  margin: 1rem;
+  margin-bottom: 5rem;
+}
+
+.box_original img {
+  width: 300px;
+  height: 170px;
+  margin: 1rem 0.5rem;
+  transition: 250ms all;
+}
+.box_original img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 1rem;
+  color: white;
+}

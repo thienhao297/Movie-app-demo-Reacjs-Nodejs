@@ -1,0 +1,19 @@
+.box_original {
+  display: flex;
+  width: fit-content;
+  overflow-x: auto;
+  margin: 1rem;
+  margin-bottom: 5rem;
+}
+.box_original::-webkit-scrollbar {
+  display: none;
+}
+.box_original img {
+  width: 228px;
+  margin: 10px 5px;
+  transition: 250ms all;
+}
+.box_original img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

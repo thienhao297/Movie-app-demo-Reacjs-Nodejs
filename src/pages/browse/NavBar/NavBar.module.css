@@ -1,0 +1,27 @@
+.icon {
+  width: 2rem;
+  padding-right: 1rem;
+}
+
+.navbar {
+  overflow: hidden;
+  background: transparent;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 0.1px;
+  z-index: 1;
+  transition: all 0.1s;
+  top: 0;
+}
+.link {
+  text-decoration: none;
+  color: red;
+  padding-left: 1rem;
+}
+
+.scrolling {
+  background-color: black;
+}

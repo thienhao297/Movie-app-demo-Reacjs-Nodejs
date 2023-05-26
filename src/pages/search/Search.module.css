@@ -1,0 +1,35 @@
+.box_original {
+  display: grid;
+  width: 100%;
+  margin-bottom: 5rem;
+  grid-template-columns: repeat(9, 10%);
+  gap: 1%;
+}
+.box_original::-webkit-scrollbar {
+  display: none;
+}
+.box_original img {
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0.5rem;
+  transition: 250ms all;
+}
+.box_original img:hover {
+  transform: scale(1.1);
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 1rem;
+  color: white;
+}
+
+.nofilm {
+  width: fit-content;
+  color: orangered;
+  background-color: white;
+  padding: 1rem;
+  margin: 0 auto;
+  font-weight: 700;
+}
