@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+}
+
+.search_form {
+  margin: 5rem auto;
+  width: 40%;
+  background-color: white;
+}
+
+.icon {
+  width: 2rem;
+}
+
+input {
+  width: 90%;
+  height: 3rem;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: grey;
+}
+
+.input_field {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.3rem solid rgb(0, 247, 255);
+}
+
+.actions {
+  text-align: right;
+  padding: 2rem;
+}
+
+.actions button {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #00000080;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+  border: none;
+}
+
+.actions button:hover {
+  color: white;
+  background-color: rgb(0, 247, 255);
+}
+
+.noinput {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: orangered;
+  font-weight: 700;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
